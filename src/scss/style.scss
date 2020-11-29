@@ -13,6 +13,8 @@
 
 .simple-menu{
     $component: &;
+    background-color: $menu-background-color;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -50,7 +52,7 @@
         line-height: 1rem;
         white-space: nowrap;
         text-decoration: none;
-        color: $black;
+        color: $theme-primary;
         text-transform:uppercase;
         border: 1px solid $menu-color-border;
         border-radius: .25rem;
@@ -108,7 +110,7 @@
             min-width: 100%;
             position:absolute;
             margin-left:0;
-            background-color: $nav_background_color;
+            background-color: $menu-background-color;
             box-shadow: 0 3px 12px rgba($black,$alpha: 0.3);
             /*border: 1px solid $menu-color-border;
             border-radius: .25rem;*/

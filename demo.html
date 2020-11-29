@@ -4,31 +4,33 @@
 	<script src="dist/bundle.js"></script>
 </head>
 <body>
-		<div class="simple-menu">
-			<ul id="mainMenu" class="simple-menu__content"><li class="menu-item">
-				<a class="simple-menu__item">News</a></li>
-				<li class="menu-item"><a class="simple-menu__item">Main</a></li>
-	
-	
-				<li class="menu-item"><a class="simple-menu__item simple-menu__chevron">About us</a>
-					<ul class="simple-menu__submenu">
-						<li  class="menu-item"><a class="simple-menu__item simple-menu__chevron">Who we are</a>
+		<div class="nav-menu">
+			<div class="simple-menu">
+				<ul id="mainMenu" class="simple-menu__content"><li class="menu-item">
+					<a class="simple-menu__item">News</a></li>
+					<li class="menu-item"><a class="simple-menu__item">Main</a></li>
+		
+		
+					<li class="menu-item"><a class="simple-menu__item simple-menu__chevron">About us</a>
+						<ul class="simple-menu__submenu">
+							<li  class="menu-item"><a class="simple-menu__item simple-menu__chevron">Who we are</a>
+								<ul class="simple-menu__submenu">
+									<li class="menu-item"><a class="simple-menu__item">Mission</a></li>
+								</ul>
+							</li>
+						</ul>
+					</li></ul>
+					<ul id="foldedMenu" class="simple-menu__content simple-menu__content--folded zigzag-display-none">
+						<li class="simple-menu__overflow-holder">
+							<a class="simple-menu__item">
+								<i class="fas fa-bars" aria-hidden="true"></i>
+							</a>
 							<ul class="simple-menu__submenu">
-								<li class="menu-item"><a class="simple-menu__item">Mission</a></li>
+		
 							</ul>
 						</li>
 					</ul>
-				</li></ul>
-				<ul id="foldedMenu" class="simple-menu__content simple-menu__content--folded zigzag-display-none">
-					<li class="simple-menu__overflow-holder">
-						<a class="simple-menu__item">
-							<i class="fas fa-bars" aria-hidden="true"></i>
-						</a>
-						<ul class="simple-menu__submenu">
-	
-						</ul>
-					</li>
-				</ul>
-			</div>
+				</div>
+		</div>
 	</body>
 	</html>
