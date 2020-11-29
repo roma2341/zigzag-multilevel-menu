@@ -1,5 +1,6 @@
 @import "variables.scss";
 
+
 .zigzag-display-none {
     display: none !important;
 }
@@ -16,6 +17,10 @@
     flex-direction: row;
     width: 100%;
     margin-top: 1rem;
+    box-sizing: border-box;
+    * {
+        box-sizing: border-box;
+    }
     li{
         position: relative;
     }
