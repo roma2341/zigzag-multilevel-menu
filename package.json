@@ -1,0 +1,57 @@
+{
+  "name": "zigzag-multilevel-menu",
+  "version": "0.1.0",
+  "description": "simple multilevel menu",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roma2341/zigzag-multilevel-menu.git"
+  },
+  "browserslist": {
+    "development": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ]
+  },
+  "dependencies": {
+    "@types/jquery": "^3.5.2",
+    "jquery": "^3.5.1",
+    "webpack": "^5.8.0"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^12.3.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^4.3.0",
+    "dir-archiver": "^1.1.1",
+    "mini-css-extract-plugin": "^1.0.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "rtlcss": "^2.5.0",
+    "sass-loader": "^10.0.3",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3"
+  },
+  "keywords": [
+    "menu",
+    "multilevel",
+    "adaptive"
+  ],
+  "author": "roma2341",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roma2341/zigzag-multilevel-menu/issues"
+  },
+  "homepage": "https://github.com/roma2341/zigzag-multilevel-menu#readme"
+}
